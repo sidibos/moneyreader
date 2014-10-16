@@ -1,0 +1,31 @@
+{
+    "name": "zendframework/zendframework1",
+    "description": "Zend Framework 1",
+    "type": "library",
+    "keywords": [
+        "framework",
+        "zf1"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zend_": "library/"
+        }
+    },
+    "include-path": [
+        "library/"
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "archive": {
+        "exclude": ["/demos", "/documentation", "/tests"]
+    }
+}
